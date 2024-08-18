@@ -1,0 +1,88 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.type {
+    margin-top: 10px;
+    font-size:25px;
+    display:inline-flex;
+  }
+  .container{
+    margin-top:20px;
+    justify-content: center;
+    text-align: justify;
+    padding: 10px;
+  }
+/*  .type h2 {
+    height:1.3em;
+    width:0%;
+    word-break:break-all;
+    overflow: hidden;
+    animation:
+      c 0.5s infinite steps(1),  
+      t 4s linear infinite alternate;
+  }
+  .type h2:before {
+    content:" ";
+    display:inline-block;
+  }
+
+  @keyframes t{
+    90%,100% {width:100%}
+  }*/
+  .title{
+    justify-content: center;
+    text-align: center;
+  }
+  .skill-img{
+    display: block;
+    max-width:80px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+  }
+.skill-img{
+  margin: auto;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  gap:10px
+}
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-font-example {
+      font-size: 40px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .responsive-font-example {
+      font-size: 23px;
+    }
+    .foto{
+      width:300px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .skill-img{
+      display: block;
+      max-width:50px;
+      max-height:50px;
+      width: auto;
+      height: auto;
+      justify-content: center;
+      text-align: center;
+    }
+    .responsive-font-example {
+      font-size: 20px;
+    }
+    .foto{
+      width:280px;
+    }
+
+  }

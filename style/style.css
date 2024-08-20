@@ -2,6 +2,10 @@
 body {
   font-family: 'Poppins'!important;
 }
+a{
+  
+  text-decoration: none !important;
+}
 .intro{
     justify-content: center;
     align-items: center;
@@ -88,5 +92,7 @@ body {
     .foto{
       width:280px;
     }
-
+    .contact{
+      font-size: 10px !important;
+    }
   }

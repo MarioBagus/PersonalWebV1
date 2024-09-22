@@ -60,6 +60,7 @@ a{
   justify-content: center;
   gap:10px
 }
+.myphoto{ text-align: center;}
 #profile {
   margin-top:70px;
 }
